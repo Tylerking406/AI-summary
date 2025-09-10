@@ -1,0 +1,14 @@
+fastapi==0.115.0
+uvicorn[standard]==0.30.6
+httpx==0.27.2
+pydantic==2.9.2
+python-multipart==0.0.9
+
+# Document parsing (PDF/Word)
+pymupdf==1.24.10        # robust PDF text extraction
+pypdf==5.0.1            # alternative/backup
+python-docx==1.1.2      # .docx support
+unstructured==0.15.9    # optional: smarter layout extraction
+
+# Utilities
+rich==13.8.1
